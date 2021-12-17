@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../assets/backgrounds/h_img.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f5d131;
+}
