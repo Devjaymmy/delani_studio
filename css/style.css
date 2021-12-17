@@ -9,4 +9,27 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #f5d131;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+
+.mouse-click {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18%;
 }
