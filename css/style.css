@@ -95,6 +95,16 @@ h6 {
   justify-content: space-between;
 }
 
+.design {
+  margin: 1rem;
+}
+.dev {
+  margin: 1rem;
+}
+.product {
+  margin: 1rem;
+}
+
 #description-design {
   display: none;
 }
