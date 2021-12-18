@@ -7,7 +7,7 @@
 .body {
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-color: #f5d131;
   height: 100%;
@@ -26,7 +26,7 @@ h1 {
   text-transform: uppercase;
   color: #fff;
 }
-h5 {
+h6 {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
@@ -38,4 +38,19 @@ h5 {
   margin-right: auto;
   padding-top: 8rem;
   padding-bottom: 4rem;
+}
+
+#about_us {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.col h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.col p {
+  font-size: 18px;
 }
