@@ -54,3 +54,26 @@ h6 {
 .col p {
   font-size: 18px;
 }
+
+.services {
+  background-image: url(../assets/backgrounds/s_image.jpg);
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: auto;
+  background-color: #f5d131;
+  height: 77vh;
+  overflow-x: hidden;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.services span {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.services p {
+  color: #fff;
+  font-size: 18px;
+}
