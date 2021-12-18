@@ -116,3 +116,61 @@ h6 {
 #description-product {
   display: none;
 }
+
+#portfolio {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+#portfolio span {
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+#ports {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.port1 {
+  margin: 1rem;
+  height: 14rem;
+  width: 15rem;
+}
+.port2 {
+  margin: 1rem;
+  height: 14rem;
+  width: 15rem;
+}
+.port3 {
+  margin: 1rem;
+  height: 14rem;
+  width: 15rem;
+}
+.port4 {
+  margin: 1rem;
+  height: 14rem;
+  width: 15rem;
+}
+.port5 {
+  margin: 1rem;
+  height: 14rem;
+  width: 15rem;
+}
+.port6 {
+  margin: 1rem;
+  height: 14rem;
+  width: 15rem;
+}
+.port7 {
+  margin: 1rem;
+  height: 14rem;
+  width: 15rem;
+}
+.port8 {
+  margin: 1rem;
+  height: 14rem;
+  width: 15rem;
+}
