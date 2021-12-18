@@ -94,3 +94,15 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+
+#description-design {
+  display: none;
+}
+
+#description-dev {
+  display: none;
+}
+
+#description-product {
+  display: none;
+}
