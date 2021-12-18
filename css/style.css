@@ -77,3 +77,20 @@ h6 {
   color: #fff;
   font-size: 18px;
 }
+
+.what {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.what span {
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+#icons {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
