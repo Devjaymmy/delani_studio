@@ -9,3 +9,9 @@ $(document).ready(function () {
     $("#description-product").toggle();
   });
 });
+
+$(document).ready(function () {
+  $(".porti").hover(function (over) {
+    $(".whiteBox").toggle();
+  });
+});
