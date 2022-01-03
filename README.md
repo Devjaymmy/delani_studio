@@ -25,6 +25,7 @@ Utilised HTML,CSS using bootstrap framework and JAVASCRIPT using JQUERY LIBRARY
 ## Support and contact details
 
 Contact me via instagram @Devjaymmy
+               also email: njorogehjames20@gmail.com
 
 ### License
 
