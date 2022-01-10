@@ -57,3 +57,21 @@ $(document).ready(function () {
     $("#overlay8").toggle();
   });
 });
+
+$(document).ready(function () {
+  $("button").click(function (event) {
+    event.preventDefault();
+    var name = $("input#yourName").val();
+    var email = $("input#email").val();
+    var message = $("input#message").val();
+    switch (name && email && message) {
+      case "":
+        alert("please input all details; name, email and message");
+        break;
+      default:
+        alert(
+          name + ", your message was recorded, we'll reply as soon as possible"
+        );
+    }
+  });
+});
