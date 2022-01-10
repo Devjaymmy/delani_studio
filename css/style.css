@@ -140,6 +140,26 @@ h6 {
   margin: 1rem;
   height: 14rem;
   width: 15rem;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0.7;
+  text-align: center;
+  padding-top: 60px;
+  background-color: #ffffff;
+  width: 15.2rem;
+  height: 14rem;
+  display: none;
+  margin: 1rem;
+  cursor: pointer;
+  transition: 0.3sec all ease;
+}
+
+.overlay.title {
+  font-size: 5px;
+  font-weight: bold;
 }
 
 .whiteBox {
@@ -198,22 +218,33 @@ form {
   margin-bottom: 8rem;
 }
 
-#name {
+.form-group {
+  color: #fff;
+  text-decoration: #fff;
+}
+
+.input-group {
+  color: #fff;
+  text-decoration: #fff;
+  margin-bottom: 2%;
+}
+
+#yourName {
   color: #fff;
 }
 
-.input-group input ::placeholder {
+.input-group::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #fff;
+  color: red;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #fff;
+  color: red;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #fff;
+  color: red;
 }
