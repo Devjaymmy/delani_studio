@@ -60,7 +60,6 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $("button").click(function (event) {
-    event.preventDefault();
     var name = $("input#yourName").val();
     var email = $("input#email").val();
     var message = $("input#message").val();
